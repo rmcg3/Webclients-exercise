@@ -3,18 +3,22 @@ body {
 }
 form {
     display: inline-block;
+    margin-right: 150px;
 }
 #image{
   background-image: url('bg_header.png');
-  width:100%;
+  width:75%;
   max-width:667;
-  height: 340px;
+  height: 250px;
   overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #requirements{
   margin-top: 0;
   margin: 0px;
-  font-size: 25px;
+  font-size: 12px;
   font-family: Arial,sans-serif;
   font-weight: bolder;
   text-align: center;
@@ -22,12 +26,6 @@ form {
   max-width:667;
   margin-left: -8px;
   overflow: hidden;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 #tell{
@@ -54,11 +52,20 @@ form {
 #myList{
     font-family: 'Abel', sans-serif;
     font-size: 28px;
-    width:125%;
+    width:155%;
     max-width:667;
     margin-left: -8px;
     margin-bottom: 8px;
     overflow: hidden;
+}
+#email{
+    font-family: 'Abel', sans-serif;
+    font-size: 28px;
+    width:175%;
+    max-width:667;
+    margin-left: -8px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 #continueButton{
   background-color: #4CAF50;
@@ -68,25 +75,18 @@ form {
   display: inline-block;
   font-size: 36px;
   font-family: 'Abel', sans-serif;
- padding:0.35em 1.2em;
- margin:0 0.3em 0.3em 0;
- box-sizing: border-box;
- text-decoration:none;
- font-weight:300;
- color:#FFFFFF;
- text-align:center;
- transition: all 0.2s;
+  padding:0.35em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
 }
-#email{
-    font-family: 'Abel', sans-serif;
-    font-size: 28px;
-    width:155%;
-    max-width:667;
-    margin-left: -8px;
-    overflow: hidden;
-}
+
 #terms{
-    font-size:28px;
+    font-size:12px;
     font-family: Arial,sans-serif;
     width:105%;
     max-width:667;
