@@ -27,7 +27,6 @@ form {
   margin-left: -8px;
   overflow: hidden;
 }
-
 #tell{
   margin: 0px;
   color: red;
@@ -84,7 +83,6 @@ form {
   text-align:center;
   transition: all 0.2s;
 }
-
 #terms{
     font-size:12px;
     font-family: Arial,sans-serif;
